@@ -5,8 +5,8 @@ class Content extends Component{
         console.log('TOC render');
         return(
             <article>
-            <h2>HTML</h2>
-            HTML is HyperText Markup Language.
+            <h2>{this.props.title}</h2>
+            {this.props.desc}
         </article>
         );
     }
